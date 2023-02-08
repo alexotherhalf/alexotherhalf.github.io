@@ -13,6 +13,12 @@ body {
   color: #272829;
 }
 
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+    height: 5px;
+}
+
 a {
   color: #0563bb;
   text-decoration: none;
