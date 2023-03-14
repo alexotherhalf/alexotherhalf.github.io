@@ -1,0 +1,31 @@
+:root{
+    --pColor:#4d56df;
+}
+
+
+/* Universal Values */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header{
+    height:60px;
+    width: 100%;
+    background: #4d56df;
+}
+
+/* header Menu */
+.header .menu{
+    display: flex;
+    flex-direction:row-reverse;
+    list-style: none;
+}
+
+.menu li{
+    padding:20px;
+}
+
+/* Container */
